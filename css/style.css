@@ -3847,3 +3847,12 @@ div.category-item {
 #what-is-clip {
 	background-color: #eee
 }
+#ted-video-id {
+	display: block;
+    margin: auto;
+	max-width: 100%;
+    height: auto;
+}
+.item .cover {
+	margin: 4px
+}
