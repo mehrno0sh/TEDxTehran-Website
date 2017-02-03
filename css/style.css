@@ -3856,3 +3856,13 @@ div.category-item {
 .item .cover {
 	margin: 4px
 }
+.container-error, .heading-error {
+	color: #111
+}
+#btn-404 {
+	border: none;
+}
+#btn-404:hover {
+	border: none;
+	background-color: #111
+}
