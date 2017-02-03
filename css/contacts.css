@@ -56,10 +56,21 @@
     transition: all .3s ease;
 }
 .section-salutation:after {
-	background-color: #111
+	background-color: #fff
 }
 .guy {
 	margin: 50px 10px 0;
 	position: relative;
     left: 80px;
+}
+.item-contact {
+	height: 260px
+}
+#dialog2 {
+    background-color: #fff;
+    padding: 20px 30px;
+    text-align: left;
+    max-width: 400px;
+    margin: 40px auto;
+    position: relative;
 }

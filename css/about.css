@@ -3,12 +3,20 @@
 
 .about-right{
 	z-index: 3;
+	color: #111;
+	padding: 20px 0 0 40px;
+}
+.about-right p {
+	line-height: 25px;
+}
+.section-salutation::after {
+	background-color: rgba(238, 238, 238, 0.5)
+}
+.title-section-left{
 	color: #111
 }
 
-.section-salutation::after {
-	background-color: #EEE
-}
+
 #press-title {
 	color: white
 }
@@ -21,11 +29,42 @@
 }
 #icon-press {
 	width: 50%;
-	margin: auto
+	margin: auto;
+	margin-right: 40px;
 }
 .about-top {
 	padding-top: 120px
 }
 div.container::after {
 	opacity: 0
+}
+
+.item-join a {
+    position: relative;
+    top: 0;
+    border: 1px solid #7e8596;
+    border-radius: 50%;
+    display: block;
+    height: 100px;
+    width: 100px;
+    padding-top: 23px;
+    text-align: center;
+    transition: all .3s ease;
+    margin: 0 auto;
+    line-height: 0;
+    font-size: 50px;
+}
+
+.item-join a:hover {
+    top: -10px
+}
+
+.item-join .item-join-heading {
+    margin: 20px 0;
+    transition: all .3s ease;
+    font-weight: 100;
+}
+
+.item-join:hover .item-join-heading {
+    color: #e62b1e;
 }

@@ -2237,7 +2237,7 @@ textarea.form-control-style {
 }
 
 .base-footer {
-    background: #2a2f46;
+    background: #111;
 }
 
 .container-footer {
@@ -2397,7 +2397,6 @@ textarea.form-control-style {
 }
 
 .base-footer .copy {
-    border-top: 1px solid #4c5260;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -3843,4 +3842,8 @@ div.category-item {
     width: 600px;
     height: 400px;
     margin-top: 85px;
+}
+
+#what-is-clip {
+	background-color: #eee
 }
