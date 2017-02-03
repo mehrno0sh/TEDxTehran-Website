@@ -1,0 +1,325 @@
+/*event Name */
+
+.event-header {
+    background-image: url(../img/eventbanner.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    padding-top: 101px;
+    padding-bottom: 70px;
+    position: relative;
+}
+
+.touch .event-header {
+    background-attachment: static;
+}
+
+.event-header:before {
+    content: "";
+    background-color: #e62b1e;
+    height: 100%;
+    opacity: .8;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.event-header h1 {
+    display: inline-block;
+    color: #fff;
+}
+
+.event-header p {
+    color: #fff;
+}
+
+
+/*date and time */
+
+.event-date {
+    background: #111;
+}
+
+.timelineEvent {
+    padding-left: 100px;
+    position: relative;
+}
+
+.timelineEvent:before {
+    content: "";
+    border-left: 1px solid #eee;
+    height: 100%;
+    position: absolute;
+    left: 20px;
+}
+
+.timelineEvent-title {
+    margin-top: 28px;
+    margin-bottom: 28px;
+    padding-left: 100px;
+    position: relative;
+}
+
+.timelineEvent-title .fa {
+    border: 1px solid #eee;
+    border-radius: 50%;
+    color: #eee;
+    font-size: 14px;
+    height: 40px;
+    padding: 12px 0;
+    position: absolute;
+    top: -7px;
+    left: 0;
+    text-align: center;
+    width: 40px;
+}
+
+.text-event h5 {
+    margin-bottom: 20px;
+    color: #eee;
+}
+
+.text-event p {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+
+/*join */
+
+.event-join {
+    background: #eee;
+}
+
+.item-join a {
+    position: relative;
+    top: 0;
+    border: 1px solid #7e8596;
+    border-radius: 50%;
+    display: block;
+    height: 100px;
+    width: 100px;
+    padding-top: 23px;
+    text-align: center;
+    transition: all .3s ease;
+    margin: 0 auto;
+    line-height: 0;
+    font-size: 50px;
+}
+
+.item-join a:hover {
+    top: -10px
+}
+
+.item-join .item-join-heading {
+    margin: 20px 0;
+    transition: all .3s ease;
+    font-weight: 100;
+}
+
+.item-join:hover .item-join-heading {
+    color: #e62b1e;
+}
+
+
+/*statistics event */
+
+.event-state .stats {
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    color: #111;
+    margin-bottom: 30px;
+}
+
+.event-state .stats:hover {
+    transform: scale(1.1);
+    color: #e62b1e;
+    cursor: zoom-in;
+}
+
+.event-state .stats i {
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.event-state .stats p {
+    font-size: 50px;
+    font-weight: 100;
+    margin: 20px 0;
+}
+
+.event-state .stats p {
+    font-size: 50px;
+    font-weight: 100;
+    margin: 20px 0;
+}
+
+.event-state .stats span {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+
+/*talks event */
+
+.event-talks {
+    background: #e62b1e;
+    color: #fff;
+}
+
+.event-talks .title-section {
+    color: #fff;
+}
+
+.event-talks .title-section:before {
+    border-bottom: 1px solid #fff;
+}
+
+.talk-item-event {
+    background: #fff;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.talk-item-event .cover {
+    background: #e62b1e;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 270px;
+}
+
+.no-touch .talk-item-event .cover {
+    cursor: default;
+}
+
+.touch .talk-item-event .cover {
+    cursor: pointer;
+}
+
+.talk-item-event .cover:before {
+    content: "";
+    background: rgba(230, 43, 30, 0.5);
+    border-radius: 4px 4px 0 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    transition: opacity .6s ease;
+    z-index: 1;
+}
+
+.talk-item-event .cover:hover:before {
+    opacity: 1;
+}
+
+.talk-item-event .cover .badge {
+    background: #fff;
+    border-radius: 50%;
+    display: block;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -30px;
+    width: 60px;
+    transition: bottom .6s ease;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.talk-item-event .cover .badge:before,
+.talk-item-event .cover .badge:after {
+    content: "";
+    border-top: 1px solid #e62b1e;
+    height: 1px;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 17px;
+}
+
+.talk-item-event .cover .badge:hover:before,
+.talk-item-event .cover .badge:hover:after {
+    border-color: #111;
+}
+
+.talk-item-event .cover .badge:after {
+    border-left: 1px solid #e62b1e;
+    height: 17px;
+    width: 1px;
+}
+
+.talk-item-event .cover:hover .badge {
+    margin-top: auto;
+    margin-bottom: auto;
+    top: 0;
+    bottom: 0;
+    pointer-events: auto;
+}
+
+.talk-item-event .caption {
+    padding: 22px 30px;
+}
+
+.talk-item-event h3 {
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.talk-item-event h3 a {
+    color: #111;
+}
+
+.talk-item-event a {
+    color: #555;
+}
+
+.talk-item-event a:hover {
+    color: #f16468;
+    text-decoration: none;
+}
+
+.talk-item-event .details {
+    font-size: 12px;
+    margin: 0;
+    display: block;
+}
+
+
+/*press*/
+
+.event-press {
+    background: #eee;
+}
+
+.press-item {
+    padding-bottom: 50px;
+}
+
+.press-item a {
+    color: #111;
+    transition: all .3s;
+    text-decoration:none;
+}
+
+.press-item a:hover {
+    color: #f16468;
+}

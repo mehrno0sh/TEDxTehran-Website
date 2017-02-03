@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Icon_1_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 128 128" style="enable-background:new 0 0 128 128;" xml:space="preserve">
+<style type="text/css">
+	
+		.st0{fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:#31364C;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#F9D080;}
+	
+		.st2{fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:#31364C;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:100;}
+	.st3{fill:#31364C;}
+</style>
+<g id="bottom_line">
+	<path id="bottom_line_7_" class="st0" d="M14,117h4 M24,117h1 M31,117h79 M116,117h2"/>
+	<path id="bottom_line_6_" class="st0" d="M45,122h8 M59,122h27 M92,122h1 M99,122h6"/>
+	<path id="bottom_line_5_" class="st0" d="M26,127h6 M38,127h20"/>
+	<line id="bottom_line_4_" class="st0" x1="63" y1="127" x2="64" y2="127"/>
+	<path id="bottom_line_1_" class="st0" d="M32,127c0-1.66,1.34-3,3-3s3,1.34,3,3"/>
+</g>
+<path id="fill_base" class="st1" d="M83,111H47c-1.66,0-3,1.34-3,3v3h42v-3C86,112.34,84.66,111,83,111z"/>
+<path id="base" class="st2" d="M83,111H47c-1.66,0-3,1.34-3,3v3h42v-3C86,112.34,84.66,111,83,111z"/>
+<path id="leg_1_" class="st0" d="M65,111v-7 M65,99V78"/>
+<path id="cup_2_" class="st0" d="M30,13V2h38 M74,2h1 M81,2h19v41c0,19.33-15.67,35-35,35c-3.49,0-6.87-0.51-10.05-1.46
+	 M49.99,74.63C38.17,69.01,30,56.96,30,43V25 M30,19v-1"/>
+<circle id="fill_circle" class="st1" cx="65" cy="40" r="17"/>
+<g id="circle">
+	<path class="st3" d="M65,25c8.27,0,15,6.73,15,15c0,8.27-6.73,15-15,15c-8.27,0-15-6.73-15-15C50,31.73,56.73,25,65,25 M65,23
+		c-9.39,0-17,7.61-17,17c0,9.39,7.61,17,17,17c9.39,0,17-7.61,17-17C82,30.61,74.39,23,65,23L65,23z"/>
+</g>
+<polyline id="one" class="st2" points="65,46 65,34 61,38 "/>
+<path id="left_handle_2_" class="st2" d="M30,25v24L11,28V8c0-3.31,2.69-6,6-6h13v11"/>
+<path id="right_handle" class="st2" d="M119,21V8c0-3.31-2.69-6-6-6h-13v47l19-21v-2"/>
+</svg>

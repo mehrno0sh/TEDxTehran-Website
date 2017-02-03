@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="phone" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#2a2f46;stroke-width:8;stroke-linecap:round;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#2a2f46;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<g id="bottom_lines">
+	<line class="st0" x1="431" y1="464" x2="108" y2="464"/>
+	<line class="st0" x1="60" y1="464" x2="48" y2="464"/>
+	<line class="st0" x1="464" y1="464" x2="455" y2="464"/>
+	<line class="st0" x1="229" y1="486" x2="339" y2="486"/>
+	<line class="st0" x1="363" y1="486" x2="363" y2="486"/>
+	<line class="st0" x1="387" y1="486" x2="412" y2="486"/>
+	<line class="st0" x1="139" y1="508" x2="222" y2="508"/>
+	<line class="st0" x1="125" y1="508" x2="99" y2="508"/>
+	<path class="st0" d="M139,508c0-3.87-3.13-7-7-7s-7,3.13-7,7"/>
+	<line class="st0" x1="246" y1="508" x2="248" y2="508"/>
+	<line class="st0" x1="84" y1="464" x2="84" y2="464"/>
+	<line class="st0" x1="205" y1="486" x2="171" y2="486"/>
+</g>
+<g id="border">
+	<line class="st1" x1="121" y1="143" x2="121" y2="141"/>
+	<line class="st1" x1="121" y1="400" x2="121" y2="167"/>
+	<path class="st1" d="M391,375v59c0,16.57-13.43,30-30,30H151c-16.57,0-30-13.43-30-30v-10"/>
+	<line class="st1" x1="391" y1="349" x2="391" y2="351"/>
+	<path class="st1" d="M353,4h8c16.57,0,30,13.43,30,30v291"/>
+	<path class="st1" d="M121,117V34c0-16.57,13.43-30,30-30h178"/>
+</g>
+<g id="border_display">
+	<polyline class="st1" points="364,140 364,378 245,378 	"/>
+	<line class="st1" x1="364" y1="114" x2="364" y2="116"/>
+	<polyline class="st1" points="221,378 148,378 148,52 364,52 364,90 	"/>
+</g>
+<g id="diagonal_lines">
+	<line class="st0" x1="218.07" y1="174.34" x2="293.73" y2="250"/>
+	<line class="st0" x1="259.79" y1="182.12" x2="294.43" y2="216.77"/>
+	<line class="st0" x1="218.07" y1="208.28" x2="235.04" y2="225.25"/>
+	<line class="st0" x1="247.76" y1="237.98" x2="247.76" y2="237.98"/>
+</g>
+<rect id="button_home" x="240" y="405" class="st1" width="32" height="32"/>
+<line id="speaker" class="st1" x1="242" y1="28" x2="270" y2="28"/>
+</svg>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="document" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#2a2f46;stroke-width:8;stroke-linecap:round;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#2a2f46;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st2{fill:#2a2f46;}
+</style>
+<g id="bottom_lines">
+	<line class="st0" x1="38" y1="464" x2="14" y2="464"/>
+	<line class="st0" x1="465" y1="464" x2="62" y2="464"/>
+	<line class="st0" x1="498" y1="464" x2="489" y2="464"/>
+	<line class="st0" x1="119" y1="486" x2="175" y2="486"/>
+	<line class="st0" x1="199" y1="486" x2="199" y2="486"/>
+	<line class="st0" x1="223" y1="486" x2="282" y2="486"/>
+	<line class="st0" x1="270" y1="508" x2="328" y2="508"/>
+	<line class="st0" x1="342" y1="508" x2="368" y2="508"/>
+	<path class="st0" d="M328,508c0-3.87,3.13-7,7-7s7,3.13,7,7"/>
+	<line class="st0" x1="246" y1="508" x2="244" y2="508"/>
+</g>
+<g id="document_border_1_">
+	<line class="st1" x1="68" y1="171" x2="68" y2="169"/>
+	<path class="st1" d="M444,382v58c0,13.25-10.75,24-24,24H92c-13.25,0-24-10.75-24-24V195"/>
+	<line class="st1" x1="444" y1="356" x2="444" y2="358"/>
+	<path class="st1" d="M311,4h27.69c2.12,0,4.16,0.84,5.66,2.34l97.31,97.31c1.5,1.5,2.34,3.54,2.34,5.66V332"/>
+	<path class="st1" d="M68,145V28C68,14.75,78.75,4,92,4h195"/>
+</g>
+<path id="angle_1_" class="st1" d="M443,106h-77c-13.25,0-24-10.75-24-24V5"/>
+<g id="vector">
+	<path class="st0" d="M246,180.4c-63.81,5.09-114,58.49-114,123.6"/>
+	<path class="st0" d="M380,304c0-65.12-50.19-118.51-114-123.6"/>
+	<rect x="122" y="305" class="st0" width="20" height="20"/>
+	<rect x="370" y="305" class="st0" width="20" height="20"/>
+	<line class="st0" x1="266" y1="180" x2="381" y2="180"/>
+	<line class="st0" x1="131" y1="180" x2="246" y2="180"/>
+	<rect x="246" y="170" class="st0" width="20" height="20"/>
+	<circle class="st2" cx="131" cy="180" r="13"/>
+	<circle class="st2" cx="381" cy="180" r="13"/>
+</g>
+</svg>

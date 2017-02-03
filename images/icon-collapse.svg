@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 16 64" style="enable-background:new 0 0 16 64;" xml:space="preserve" width="16px" height="64px">
+<style type="text/css">
+	.st0{enable-background:new    ;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#F16468;}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#2F3347;}
+	.st3{fill:#F16468;}
+	.st4{fill:#2F3347;}
+</style>
+<g id="icon-minus_hover_1_" class="st0">
+	<rect y="55" class="st1" width="16" height="2"/>
+</g>
+<g id="icon-minus_1_" class="st0">
+	<rect y="39" class="st2" width="16" height="2"/>
+</g>
+<g id="icon-plus_hover_1_" class="st0">
+	<polygon class="st3" points="16,23 9,23 9,16 7,16 7,23 0,23 0,25 7,25 7,32 9,32 9,25 16,25 	"/>
+</g>
+<g id="icon-plus_1_" class="st0">
+	<polygon id="icon-plus" class="st4" points="16,7 9,7 9,0 7,0 7,7 0,7 0,9 7,9 7,16 9,16 9,9 16,9 	"/>
+</g>
+</svg>

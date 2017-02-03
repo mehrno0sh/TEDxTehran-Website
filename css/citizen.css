@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+#c-h1{
+	color: #111;
+	font-size: 12vh;
+	text-align: center
+}
+#c-h1-b {
+	font-weight: 900;
+	color: #e62b1e
+}
+.slogan{
+	text-align: center
+}
+.c-illustration {
+	width: 742px;
+	height: 385px;
+	display: block;
+    margin: auto;
+}
+.main-slider h1 {
+	margin-top: 50px
+}
+.icon-quote {
+    background-image: url(../images/icon-award-citizen.svg);
+    display: block;
+    height: 65.5px;
+    margin-bottom: 30px;
+    width: 66px;
+}

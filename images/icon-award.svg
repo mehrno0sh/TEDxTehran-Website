@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 63 62.5">
+  <title>icon-award</title>
+  <g>
+    <line x1="7.5" y1="58" x2="57.5" y2="58" fill="none" stroke="#2a2f46" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="62.5" y1="58" x2="60.5" y2="58" fill="none" stroke="#2a2f46" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="3.5" y1="58" x2="0.5" y2="58" fill="none" stroke="#2a2f46" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="20.5" y1="60" x2="14.5" y2="60" fill="none" stroke="#2a2f46" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="24.5" y1="60" x2="23.5" y2="60" fill="none" stroke="#2a2f46" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="35.5" y1="60" x2="27.5" y2="60" fill="none" stroke="#2a2f46" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="29.5" y1="62" x2="27.5" y2="62" fill="none" stroke="#2a2f46" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="46.5" y1="62" x2="32.5" y2="62" fill="none" stroke="#2a2f46" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <path d="M14.88,37.81l-8,13.86L15,51.75l4,6.92,7.69-13.32A22,22,0,0,1,14.88,37.81Z" transform="translate(-0.5 -1.5)" fill="#f9d080"/>
+  <line x1="16.5" y1="47.5" x2="18.5" y2="44.5" stroke="#2a2f46" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M14.88,37.81l-8,13.86L15,51.75l4,6.92,7.69-13.32A22,22,0,0,1,14.88,37.81Z" transform="translate(-0.5 -1.5)" fill="none" stroke="#2a2f46" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M49.12,37.81a22,22,0,0,1-11.81,7.54L45,58.67l4-6.92,8.13-.08Z" transform="translate(-0.5 -1.5)" fill="#f9d080"/>
+  <line x1="47.5" y1="47.5" x2="45.5" y2="44.5" stroke="#2a2f46" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M49.12,37.81a22,22,0,0,1-11.81,7.54L45,58.67l4-6.92,8.13-.08Z" transform="translate(-0.5 -1.5)" fill="none" stroke="#2a2f46" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M22,4.4q-0.51.26-1,.54" transform="translate(-0.5 -1.5)" fill="none" stroke="#2a2f46" stroke-linecap="round" stroke-linejoin="bevel" fill-rule="evenodd"/>
+  <path d="M53.91,26Q54,25,54,24A22,22,0,0,0,26,2.83" transform="translate(-0.5 -1.5)" fill="none" stroke="#2a2f46" stroke-linecap="round" stroke-linejoin="bevel" fill-rule="evenodd"/>
+  <path d="M52.5,32q0.19-.49.36-1" transform="translate(-0.5 -1.5)" fill="none" stroke="#2a2f46" stroke-linecap="round" stroke-linejoin="bevel" fill-rule="evenodd"/>
+  <path d="M18,7A22,22,0,1,0,50.44,36" transform="translate(-0.5 -1.5)" fill="none" stroke="#2a2f46" stroke-linecap="round" stroke-linejoin="bevel" fill-rule="evenodd"/>
+  <path d="M40,12.51A14,14,0,0,0,21.28,33" transform="translate(-0.5 -1.5)" fill="none" stroke="#2a2f46" stroke-linecap="round" stroke-linejoin="bevel" fill-rule="evenodd"/>
+  <path d="M24,35.49A14,14,0,0,0,42,14.2" transform="translate(-0.5 -1.5)" fill="none" stroke="#2a2f46" stroke-linecap="round" stroke-linejoin="bevel" fill-rule="evenodd"/>
+  <g>
+    <line x1="26.5" y1="17.5" x2="36.5" y2="27.5" stroke="#2a2f46" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M33,20l4.16,4.16" transform="translate(-0.5 -1.5)" stroke="#2a2f46" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd"/>
+    <path d="M27,24l4.16,4.16" transform="translate(-0.5 -1.5)" stroke="#2a2f46" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd"/>
+  </g>
+</svg>

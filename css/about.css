@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+.about-right{
+	z-index: 3;
+	color: #111
+}
+
+.section-salutation::after {
+	background-color: #EEE
+}
+#press-title {
+	color: white
+}
+.free-started {
+    background-image: url(../images/about-press.svg);
+    background-size: cover;
+    background-position: center center;
+    padding-top: 76px;
+    padding-bottom: 0;
+}
+#icon-press {
+	width: 50%;
+	margin: auto
+}
+.about-top {
+	padding-top: 120px
+}
+div.container::after {
+	opacity: 0
+}

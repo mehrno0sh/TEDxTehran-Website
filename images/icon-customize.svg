@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="config" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#2a2f46;stroke-width:8;stroke-linecap:round;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#2a2f46;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<g id="bottom_lines">
+	<line class="st0" x1="96" y1="464" x2="41" y2="464"/>
+	<line class="st0" x1="310" y1="464" x2="120" y2="464"/>
+	<line class="st0" x1="446" y1="464" x2="334" y2="464"/>
+	<line class="st0" x1="479" y1="464" x2="470" y2="464"/>
+	<line class="st0" x1="139" y1="486" x2="195" y2="486"/>
+	<line class="st0" x1="219" y1="486" x2="219" y2="486"/>
+	<line class="st0" x1="243" y1="486" x2="302" y2="486"/>
+	<line class="st0" x1="290" y1="508" x2="348" y2="508"/>
+	<line class="st0" x1="362" y1="508" x2="388" y2="508"/>
+	<path class="st0" d="M348,508c0-3.87,3.13-7,7-7s7,3.13,7,7"/>
+	<line class="st0" x1="266" y1="508" x2="264" y2="508"/>
+</g>
+<g id="wrench">
+	<g id="center_line">
+		<line class="st0" x1="182.01" y1="269" x2="182.01" y2="370"/>
+		<line class="st0" x1="182.01" y1="195" x2="182.01" y2="245"/>
+	</g>
+	<path id="border_wrench" class="st1" d="M209.63,98.78L182,115.53l-60-35.68V4C97.78,22.19,82,51,82,83.62
+		c0,0.67,0.01,1.33,0.02,1.99 M220.56,334.48L213.89,178c39.28-13.39,67.54-50.57,67.54-94.38C281.43,51,265.22,22.19,241,4v75.85
+		l-9,5.77 M221.62,360.4l-0.08-1.99 M95.96,134.52c12.02,20.19,30.98,35.78,53.58,43.48l-9.56,241.35
+		C138.92,445.18,159.21,465.8,185,464c22.52-1.57,40.03-20.82,39.09-43.73l-1.48-35.93 M85.41,109.55c0.19,0.7,0.38,1.39,0.58,2.08
+		 M182,434c-6.63,0-12-5.37-12-12s5.37-12,12-12s12,5.37,12,12S188.63,434,182,434z"/>
+</g>
+<g id="screwdriver">
+	<g id="border_grip">
+		<path class="st1" d="M431,333v91c0,22.09-17.91,40-40,40h0c-22.09,0-40-17.91-40-40v-21"/>
+		<polyline class="st1" points="351,353 351,292 365,240 417,240 431,292 431,309 		"/>
+		<line class="st1" x1="351" y1="379" x2="351" y2="377"/>
+	</g>
+	<g id="separation">
+		<line class="st1" x1="351" y1="292" x2="385" y2="292"/>
+		<line class="st1" x1="430" y1="292" x2="409" y2="292"/>
+		<line class="st1" x1="431" y1="424" x2="393" y2="424"/>
+		<line class="st1" x1="369" y1="424" x2="351" y2="424"/>
+	</g>
+	<path id="border_grip_top_1_" class="st1" d="M417,220h-52c-5.52,0-10,4.48-10,10v0c0,5.52,4.48,10,10,10h52c5.52,0,10-4.48,10-10
+		v0C427,224.48,422.52,220,417,220z"/>
+	<line id="vertical_line_grip" class="st1" x1="377" y1="324" x2="377" y2="396"/>
+	<line id="vertical_line_grip_1_" class="st1" x1="405" y1="324" x2="405" y2="396"/>
+	<g id="spire">
+		<line class="st1" x1="391" y1="133" x2="391" y2="55"/>
+		<line class="st1" x1="391" y1="159" x2="391" y2="157"/>
+		<line class="st1" x1="391" y1="220" x2="391" y2="183"/>
+	</g>
+	<polygon id="tip" class="st1" points="403,55 379,55 375,4 407,4 	"/>
+</g>
+</svg>

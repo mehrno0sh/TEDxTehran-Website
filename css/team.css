@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main-slider-black {
+    background-color: #e62b1e;
+    background-image: url(../images/bg-stars.svg);
+}
+#team-slider p, #team-slider h1 {
+	text-align: center
+}
+.item-project .cover .badge {
+    background: #fff;
+    border-radius: 50%;
+    display: block;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -30px;
+    width: 60px;
+    transition: bottom .6s ease;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.item-project .cover .badge:before,
+.item-project .cover .badge:after {
+    content: "";
+    border-top: 1px solid #2a2f46;
+    height: 1px;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 17px;
+}
+
+.item-project .cover .badge:hover:before,
+.item-project .cover .badge:hover:after {
+    border-color: #00ace6;
+}
+
+.item-project .cover .badge:after {
+    border-left: 1px solid #2a2f46;
+    height: 17px;
+    width: 1px;
+}
+
+.item-project .cover:hover .badge {
+    margin-top: auto;
+    margin-bottom: auto;
+    top: 0;
+    bottom: 0;
+    pointer-events: auto;
+}
+
+.badge svg {
+    top: 0;
+    left: 0;
+}
