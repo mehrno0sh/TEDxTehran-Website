@@ -3873,3 +3873,28 @@ div.category-item {
     z-index: 9999;
     width: 100%;
 }
+#clockdiv {
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 36px;
+}
+#clockdiv > div {
+	padding: 20px;
+	border-radius: 3px;
+	background: rgba(0,0,0,0.4);
+	display: inline-block;
+}
+#clockdiv div > span {
+	padding: 30px;
+	border-radius: 0px;
+	background: rgba(0, 0, 0,0);
+	display: inline-block;
+}
+#main-slider-stores a {
+	display: block;
+    margin: auto;
+	max-width: 100%;
+    height: auto;
+}
