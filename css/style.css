@@ -3866,3 +3866,10 @@ div.category-item {
 	border: none;
 	background-color: #111
 }
+#navigation {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+}
