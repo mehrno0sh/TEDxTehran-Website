@@ -3898,3 +3898,20 @@ div.category-item {
 	max-width: 100%;
     height: auto;
 }
+/* BOX */
+#id-box {
+	padding: 50px
+}
+#box-btn{
+	background-color: #e62b1e;
+	border: none;
+    float: right;
+    bottom: 100px;
+}
+#box-btn:hover {
+	background-color: #111
+}
+#id-box h4 {
+	font-weight: 400
+}
+/* !BOX */
