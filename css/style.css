@@ -1032,6 +1032,7 @@ textarea.form-control-style {
     /*height: 100%;*/
     height: 262.5px;
     object-fit: cover;
+	cursor: pointer;
 }
 
 .badge {
@@ -1057,7 +1058,7 @@ textarea.form-control-style {
     margin-top: auto;
     margin-bottom: auto;
     top: 0;
-    bottom: 50px;
+    bottom: 15px;
     pointer-events: auto;
 }
 
@@ -3915,3 +3916,6 @@ div.category-item {
 	font-weight: 400
 }
 /* !BOX */
+.cover h4 {
+	text-align: center
+}
