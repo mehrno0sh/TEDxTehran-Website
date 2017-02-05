@@ -1,13 +1,13 @@
 /*event Name */
 
 .event-header {
-    background-image: url(../img/eventbanner.jpg);
+    background-image: url(../images/bg-stats.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     height: auto;
-    padding-top: 101px;
+    padding-top: 150px;
     padding-bottom: 70px;
     position: relative;
 }
@@ -40,6 +40,7 @@
 
 .event-date {
     background: #111;
+    padding:50px 0;
 }
 
 .timelineEvent {
@@ -126,55 +127,20 @@
 
 /*statistics event */
 
-.event-state .stats {
+.event-state{
+    background: #e62b1e;
+}
+.event-state .digits-item {
     text-align: center;
     transition: all 0.3s ease-in-out;
-    color: #111;
+    color: #000;
     margin-bottom: 30px;
 }
-
-.event-state .stats:hover {
-    transform: scale(1.1);
-    color: #e62b1e;
-    cursor: zoom-in;
-}
-
-.event-state .stats i {
-    font-size: 50px;
-    font-weight: 100;
-}
-
-.event-state .stats p {
-    font-size: 50px;
-    font-weight: 100;
-    margin: 20px 0;
-}
-
-.event-state .stats p {
-    font-size: 50px;
-    font-weight: 100;
-    margin: 20px 0;
-}
-
-.event-state .stats span {
-    font-size: 18px;
-    font-weight: 100;
-}
-
 
 /*talks event */
 
 .event-talks {
-    background: #e62b1e;
-    color: #fff;
-}
-
-.event-talks .title-section {
-    color: #fff;
-}
-
-.event-talks .title-section:before {
-    border-bottom: 1px solid #fff;
+    background: #eee;
 }
 
 .talk-item-event {
@@ -269,9 +235,12 @@
     bottom: 0;
     pointer-events: auto;
 }
-
+.talk-item-event .fit .img-cover{
+    height: 270.5px;
+}
 .talk-item-event .caption {
-    padding: 22px 30px;
+    padding: 22px 30px 10px;
+    min-height: 140px;
 }
 
 .talk-item-event h3 {
