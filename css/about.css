@@ -53,6 +53,7 @@ div.container::after {
     margin: 0 auto;
     line-height: 0;
     font-size: 50px;
+	    
 }
 
 .item-join a:hover {
@@ -67,4 +68,29 @@ div.container::after {
 
 .item-join:hover .item-join-heading {
     color: #e62b1e;
+}
+.item-join h5 {
+	display: none;
+	-webkit-box-sizing: border-box; /* Some Webkit versions requires a prefix */
+    -moz-box-sizing: border-box; /* Gecko (i.e. FireFox) requires a prefix */
+    box-sizing: border-box;
+}
+#abo-fb a:hover + #abt-fb {
+    display: inline;
+}
+#abo-tw a:hover + #abt-tw {
+    display: inline;
+}
+#abo-fl a:hover + #abt-fl {
+    display: inline;
+}
+#abo-ig a:hover + #abt-ig {
+    display: inline;
+}
+#abo-in a:hover + #abt-in {
+    display: inline;
+	margin: 0px;
+}
+.item-join a:focus {
+	color: #e62b1e
 }
