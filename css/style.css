@@ -1600,6 +1600,7 @@ textarea.form-control-style {
 
 .panel-style .panel-heading + .panel-collapse .panel-body {
     border: 0;
+    text-align: justify;
 }
 
 .panel-body {
