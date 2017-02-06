@@ -3,7 +3,9 @@
 
 .about-right{
 	z-index: 3;
-	color: #111;
+	/*color: #111;*/
+    color: #2a2f46;
+    text-align: justify;
 	padding: 20px 0 0 40px;
 }
 .about-right p {
@@ -13,7 +15,8 @@
 	background-color: rgba(238, 238, 238, 0.5)
 }
 .title-section-left{
-	color: #111
+	/*color: #111 */
+    color: #2a2f46
 }
 
 
