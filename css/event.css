@@ -35,12 +35,17 @@
     color: #fff;
 }
 
+.event-image img {
+    width: 100%;
+    max-height: 450px
+}
+
 
 /*date and time */
 
 .event-date {
     background: #111;
-    padding:50px 0;
+    padding: 50px 0;
 }
 
 .timelineEvent {
@@ -63,18 +68,15 @@
     position: relative;
 }
 
-.timelineEvent-title .fa {
+.timelineEvent-title img {
     border: 1px solid #eee;
     border-radius: 50%;
-    color: #eee;
-    font-size: 14px;
-    height: 40px;
-    padding: 12px 0;
+    height: 70px;
+    padding: 15px 0;
     position: absolute;
-    top: -7px;
-    left: 0;
-    text-align: center;
-    width: 40px;
+    top: -30px;
+    left: -15px;
+    width: 70px;
 }
 
 .text-event h5 {
@@ -90,19 +92,15 @@
 
 /*join */
 
-.event-join {
-    background: #eee;
-}
-
 .item-join a {
     position: relative;
     top: 0;
-    border: 1px solid #7e8596;
+    border: 1px solid #111;
     border-radius: 50%;
     display: block;
     height: 100px;
     width: 100px;
-    padding-top: 23px;
+    padding-top: 18px;
     text-align: center;
     transition: all .3s ease;
     margin: 0 auto;
@@ -112,6 +110,11 @@
 
 .item-join a:hover {
     top: -10px
+}
+
+.item-join img {
+    height: 60px;
+    width: 60px;
 }
 
 .item-join .item-join-heading {
@@ -125,17 +128,37 @@
 }
 
 
+/*gallery*/
+
+.event-gallery .title-section-details {
+    margin-bottom: 0;
+}
+
+.event-gallery .btn {
+    background: #e62b1e;
+    margin-top: 56px;
+    color: #fff;
+    border: 0;
+}
+
+.event-gallery .btn:hover {
+    color: #000;
+}
+
+
 /*statistics event */
 
-.event-state{
+.event-state {
     background: #e62b1e;
 }
+
 .event-state .digits-item {
     text-align: center;
     transition: all 0.3s ease-in-out;
-    color: #000;
+    color: #fff;
     margin-bottom: 30px;
 }
+
 
 /*talks event */
 
@@ -166,6 +189,18 @@
 
 .touch .talk-item-event .cover {
     cursor: pointer;
+}
+
+.fit {
+    height: 270px;
+    overflow: hidden;
+    position: relative;
+}
+
+.img-cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .talk-item-event .cover:before {
@@ -203,6 +238,14 @@
     pointer-events: none;
 }
 
+.talk-item-event .cover:hover .badge {
+    margin-top: auto;
+    margin-bottom: auto;
+    top: 0;
+    bottom: 0;
+    pointer-events: auto;
+}
+
 .talk-item-event .cover .badge:before,
 .talk-item-event .cover .badge:after {
     content: "";
@@ -235,9 +278,13 @@
     bottom: 0;
     pointer-events: auto;
 }
-.talk-item-event .fit .img-cover{
-    height: 270.5px;
+
+.talk-item-event .badge svg {
+    top: 0;
+    left: 0;
+    background-image: none;
 }
+
 .talk-item-event .caption {
     padding: 22px 30px 10px;
     min-height: 140px;
@@ -262,7 +309,7 @@
 }
 
 .talk-item-event a:hover {
-    color: #f16468;
+    color: #e62b1e;
     text-decoration: none;
 }
 
@@ -273,22 +320,62 @@
 }
 
 
+/*event-partner*/
+
+.event-partner img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.event-partner img:hover {
+    -webkit-filter: none;
+    filter: none;
+    cursor: pointer;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+
+/*team*/
+
+.event-team {
+    background-image: url(../images/arrow-bg.svg);
+    background-size: cover;
+    background-position: center center;
+    padding-top: 76px;
+    padding-bottom: 80px;
+}
+
+.event-team .title-section-details {
+    margin-bottom: 0;
+}
+
+.event-team .btn {
+    color: #e62b1e;
+    margin-top: 56px;
+}
+
+.event-team .btn:hover {
+    color: #fff;
+}
+
+.event-team .title-section,
+.event-team p {
+    color: #fff;
+}
+
+.event-team .title-section::before,
+.event-team .title-section-left::before {
+    border-color: #fff;
+}
+
+
 /*press*/
 
-.event-press {
-    background: #eee;
-}
-
-.press-item {
-    padding-bottom: 50px;
-}
-
-.press-item a {
-    color: #111;
-    transition: all .3s;
-    text-decoration:none;
-}
-
-.press-item a:hover {
-    color: #f16468;
+.event-press .owl-carousel .owl-item img {
+    width: auto;
 }
