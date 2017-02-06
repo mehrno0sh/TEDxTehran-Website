@@ -142,7 +142,7 @@
 }
 
 .event-gallery .btn:hover {
-    color: #000;
+    background: #000;
 }
 
 
@@ -357,10 +357,12 @@
 .event-team .btn {
     color: #e62b1e;
     margin-top: 56px;
+    border: none;
 }
 
 .event-team .btn:hover {
     color: #fff;
+    background: #e62b1e;
 }
 
 .event-team .title-section,
