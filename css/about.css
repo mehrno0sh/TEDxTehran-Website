@@ -3,7 +3,9 @@
 
 .about-right{
 	z-index: 3;
-	color: #111;
+	/*color: #111;*/
+    color: #2a2f46;
+    text-align: justify;
 	padding: 20px 0 0 40px;
 }
 .about-right p {
@@ -13,7 +15,8 @@
 	background-color: rgba(238, 238, 238, 0.5)
 }
 .title-section-left{
-	color: #111
+	/*color: #111 */
+    color: #2a2f46
 }
 
 
@@ -53,16 +56,18 @@ div.container::after {
     margin: 0 auto;
     line-height: 0;
     font-size: 50px;
+	transition: all .2s ease-in-out;
+	
 	    
 }
 
 .item-join a:hover {
-    top: -10px
+    top: -10px;
+	 transform: scale(1.1);
 }
 
 .item-join .item-join-heading {
     margin: 20px 0;
-    transition: all .3s ease;
     font-weight: 100;
 }
 
@@ -71,12 +76,10 @@ div.container::after {
 }
 .item-join h5 {
 	display: none;
-	-webkit-box-sizing: border-box; /* Some Webkit versions requires a prefix */
-    -moz-box-sizing: border-box; /* Gecko (i.e. FireFox) requires a prefix */
-    box-sizing: border-box;
 }
 #abo-fb a:hover + #abt-fb {
     display: inline;
+	transition: all .2s ease-in-out;
 }
 #abo-tw a:hover + #abt-tw {
     display: inline;
