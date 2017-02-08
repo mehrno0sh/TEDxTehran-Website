@@ -3406,11 +3406,11 @@ div.category-item {
 .img-salutation {
     margin-top: 100px;
 }
-#youtube-hover:hover {
+.youtube-hover:hover {
 	color: #e62b1e;
 	transition: color .3s ease;
 }
-#aparat-hover {
+.aparat-hover {
 	width: 16px;
 	height: 18px;
 	background: url(../images/aparat.png) 0 0px;
@@ -3418,7 +3418,7 @@ div.category-item {
 	bottom: 21px;
 	position: absolute;
 }
-#aparat-hover:hover {
+.aparat-hover:hover {
 	cursor: pointer;
 	background: url(../images/aparat.png) 0 -16px;
 	transition: all .3s ease;
