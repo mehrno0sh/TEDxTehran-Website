@@ -3423,3 +3423,15 @@ div.category-item {
 	background: url(../images/aparat.png) 0 -16px;
 	transition: all .3s ease;
 }
+.talk-hover {
+	height: 390px;
+}
+.talk-hover .cover .fit img {
+	opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+.talk-hover .cover .fit img:hover{
+	opacity: 0.8;
+}
