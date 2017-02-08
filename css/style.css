@@ -960,6 +960,10 @@ textarea.form-control-style {
     padding: 70px 40px 100px 0;
 }
 
+    .text-salutation p {
+        text-align: justify;
+    }
+
 .section-salutation .img-responsive {
     position: relative;
     z-index: 1;
@@ -1032,7 +1036,7 @@ textarea.form-control-style {
     /*height: 100%;*/
     height: 262.5px;
     object-fit: cover;
-	cursor: pointer;
+    cursor: pointer;
 }
 
 .badge {
@@ -3750,8 +3754,7 @@ img.mfp-img {
     letter-spacing: 0;
 }
 
-.whyTedxVid {
-    margin-top: 50px;
+.vid {
     position: relative;
     top: 0;
     right: 0;
@@ -3759,9 +3762,17 @@ img.mfp-img {
     height: 100%;
 }
 
+.whyTedxVid {
+    margin-top: 50px;
+}
+
 .WhyTedxText {
     float: right;
     padding-left: 30px;
+}
+
+.speakerVid{
+    margin-top: 100px;
 }
 
 @media (max-width: 990px) {
@@ -3769,8 +3780,7 @@ img.mfp-img {
         padding: 50px 40px 0px 0;
     }
 
-    .whyTedxVid {
-        margin-top: 50px;
+    .vid {
         position: relative;
         width: 100%;
         display: inline-block;
@@ -3847,27 +3857,33 @@ div.category-item {
 }
 
 #what-is-clip {
-	background-color: #eee
+    background-color: #eee;
 }
+
 #ted-video-id {
-	display: block;
+    display: block;
     margin: auto;
-	max-width: 100%;
+    max-width: 100%;
     height: auto;
 }
+
 .item .cover {
-	margin: 4px
+    margin: 4px;
 }
+
 .container-error, .heading-error {
-	color: #111
+    color: #111;
 }
+
 #btn-404 {
-	border: none;
+    border: none;
 }
-#btn-404:hover {
-	border: none;
-	background-color: #111
-}
+
+    #btn-404:hover {
+        border: none;
+        background-color: #111;
+    }
+
 #navigation {
     position: fixed;
     left: 0;
@@ -3875,84 +3891,108 @@ div.category-item {
     z-index: 9999;
     width: 100%;
 }
+
 #main-slider-stores a {
-	display: block;
+    display: block;
     margin: auto;
-	max-width: 100%;
+    max-width: 100%;
     height: auto;
 }
 /* BOX */
 #id-box {
-	padding: 50px
+    padding: 50px;
 }
-#box-btn{
-	background-color: #e62b1e;
-	border: none;
+
+#box-btn {
+    background-color: #e62b1e;
+    border: none;
     float: right;
     bottom: 100px;
 }
-#box-btn:hover {
-	background-color: #111
-}
+
+    #box-btn:hover {
+        background-color: #111;
+    }
+
 #id-box h4 {
-	font-weight: 400
+    font-weight: 400;
 }
 /* !BOX */
 .cover h4 {
-	text-align: center
+    text-align: center;
 }
+
 #clockdiv {
-	color: #fff;
-	display: inline-block;
-	font-weight: 100;
-	text-align: center;
-	font-size: 36px;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 36px;
 }
-#clockdiv > div {
-	padding: 10px;
-	border-radius: 3px;
-	background: rgba(0,0,0,0.4);
-	display: inline-block;
-}
-#clockdiv div > span {
-	padding: 15px;
-	border-radius: 0px;
-	background: rgba(0, 0, 0,0.0);
-	display: inline-block;
-}
+
+    #clockdiv > div {
+        padding: 10px;
+        border-radius: 3px;
+        background: rgba(0,0,0,0.4);
+        display: inline-block;
+    }
+
+    #clockdiv div > span {
+        padding: 15px;
+        border-radius: 0px;
+        background: rgba(0, 0, 0,0.0);
+        display: inline-block;
+    }
+
 #btn-scroll-sec {
-	position: absolute;
-	left: 50%;
-	z-index: 2;
-	display: inline-block;
-	-webkit-transform: translate(0, -50%);
-	transform: translate(0, -50%);
-	color: #fff;
-	letter-spacing: .1em;
-	text-decoration: none;
-	transition: opacity .3s;
-	cursor: pointer;
-	margin-top: 100px;
+    position: absolute;
+    left: 50%;
+    z-index: 2;
+    display: inline-block;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    color: #fff;
+    letter-spacing: .1em;
+    text-decoration: none;
+    transition: opacity .3s;
+    cursor: pointer;
+    margin-top: 100px;
 }
-#btn-scroll-sec:hover {
-	opacity: .5;
-}
-#btn-scroll-sec span {
-	position: absolute;
-	top: 20px;
-	left: 50%;
-	width: 24px;
-	height: 24px;
-	margin-left: -12px;
-	border-left: 1px solid #fff;
-	border-bottom: 1px solid #fff;
-	-webkit-transform: rotate(-45deg);
-	transform: rotate(-45deg);
-	box-sizing: border-box;
-}
+
+    #btn-scroll-sec:hover {
+        opacity: .5;
+    }
+
+    #btn-scroll-sec span {
+        position: absolute;
+        top: 20px;
+        left: 50%;
+        width: 24px;
+        height: 24px;
+        margin-left: -12px;
+        border-left: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        box-sizing: border-box;
+    }
+
 #talks-detail {
-	margin-bottom: 0px !important;
+    margin-bottom: 0px !important;
 }
-.about-social{
-	height: 350px;
+
+.about-social {
+    height: 350px;
+}
+
+.spk-photo {
+}
+
+.speaker-more{
+    padding: 100px;
+}
+
+.speaker-about{
+  margin-top: 50px;
+  text-align: justify;
 }
