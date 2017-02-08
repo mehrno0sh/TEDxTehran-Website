@@ -3771,7 +3771,7 @@ img.mfp-img {
     padding-left: 30px;
 }
 
-.speakerVid{
+.speakerVid {
     margin-top: 100px;
 }
 
@@ -3988,11 +3988,15 @@ div.category-item {
 .spk-photo {
 }
 
-.speaker-more{
+.speaker-more {
     padding: 100px;
 }
 
-.speaker-about{
-  margin-top: 50px;
-  text-align: justify;
+.speaker-about {
+    margin-top: 50px;
+    text-align: justify;
+}
+
+.img-salutation {
+    margin-top: 100px;
 }
