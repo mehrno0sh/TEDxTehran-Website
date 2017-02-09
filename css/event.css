@@ -1,7 +1,7 @@
 /*event Name */
 
 .event-header {
-    background-image: url(../images/bg-stats.jpg);
+    background-image: url(../img/bg-stats.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -343,7 +343,7 @@
 /*team*/
 
 .event-team {
-    background-image: url(../images/arrow-bg.svg);
+    background-image: url(../img/arrow-bg.svg);
     background-size: cover;
     background-position: center center;
     padding-top: 76px;
