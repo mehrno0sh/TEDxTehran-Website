@@ -4091,7 +4091,7 @@ div.container::after {
 
 /*join */
 
-.item-join a {
+.event-join .item-join a {
     position: relative;
     top: 0;
     border: 1px solid #111;
@@ -4107,22 +4107,22 @@ div.container::after {
     font-size: 50px;
 }
 
-.item-join a:hover {
+.event-join .item-join a:hover {
     top: -10px
 }
 
-.item-join img {
+.event-join .item-join img {
     height: 60px;
     width: 60px;
 }
 
-.item-join .item-join-heading {
-    margin: 20px 0;
+.event-join .item-join .item-join-heading {
     transition: all .3s ease;
-    font-weight: 100;
+    display: block;
+    text-transform: capitalize;
 }
 
-.item-join:hover .item-join-heading {
+.event-join .item-join:hover .item-join-heading {
     color: #e62b1e;
 }
 
