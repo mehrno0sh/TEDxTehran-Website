@@ -23,6 +23,7 @@
     <!-- JavaScripts -->
     <script src="js/jquery-1.12.3.min.js" type="text/javascript"></script>
     <script src="js/modernizr.custom.js" type="text/javascript"></script>
+    <script src="js/volunteer.js" type="text/javascript"></script>
     <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
             <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -122,7 +123,7 @@
                 <div class="container">
                     <div class="row">
                         <!-- Item contact -->
-                        <div class="col-md-15 col-sm-3">
+                        <div class="col-md-15 col-sm-3" onclick="apply_position(0)">
                             <div class="item-contact text-center">
                                 <img src="img/curation.svg" alt="curation">
                                 <h5 class="item-contact-heading text-uppercase">Curation</h5>
@@ -130,7 +131,7 @@
                         </div>
                         <!-- /Item contact -->
                         <!-- Item contact -->
-                        <div class="col-md-15 col-sm-3">
+                        <div class="col-md-15 col-sm-3" onclick="apply_position(1)">
                             <div class="item-contact text-center">
                                 <img src="img/media.svg" alt="media">
                                 <h5 class="item-contact-heading text-uppercase">Media</h5>
@@ -138,7 +139,7 @@
                         </div>
                         <!-- /Item contact -->
                         <!-- Item contact -->
-                        <div class="col-md-15 col-sm-3">
+                        <div class="col-md-15 col-sm-3" onclick="apply_position(2)">
                             <div class="item-contact text-center">
                                 <img src="img/technology.svg" alt="technology">
                                 <h5 class="item-contact-heading text-uppercase">Technology</h5>
@@ -147,14 +148,14 @@
                         <!-- /Item contact -->
                         <!-- Item contact -->
                         <div class="col-md-15 col-sm-3">
-                            <div class="item-contact text-center">
+                            <div class="item-contact text-center" onclick="apply_position(3)">
                                 <img src="img/partnerships.svg" alt="partnerships">
                                 <h5 class="item-contact-heading text-uppercase">Partnerships</h5>
                             </div>
                         </div>
                         <!-- /Item contact -->
                         <!-- Item contact -->
-                        <div class="col-md-15 col-sm-3">
+                        <div class="col-md-15 col-sm-3" onclick="apply_position(4)">
                             <div class="item-contact text-center">
                                 <img src="img/operation.svg" alt="operation">
                                 <h5 class="item-contact-heading text-uppercase">Operation</h5>
@@ -173,12 +174,12 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control form-control-style" placeholder="* First Name" id="name" required data-error="Please, enter your name.">
+                                    <input type="text" class="form-control form-control-style" placeholder="* First Name" id="fname" required data-error="Please, enter your name.">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control form-control-style" placeholder="* Last Name" id="name" required data-error="Please, enter your last name.">
+                                    <input type="text" class="form-control form-control-style" placeholder="* Last Name" id="lname" required data-error="Please, enter your last name.">
                                 </div>
                             </div>
                         </div>
@@ -190,14 +191,14 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control form-control-style" placeholder="* Current city" id="name" required data-error="Please, enter your current city.">
+                                    <input type="text" class="form-control form-control-style" placeholder="* Current city" id="city" required data-error="Please, enter your current city.">
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="tel" class="form-control form-control-style" placeholder="* Phone number" id="name" required data-error="Please, enter your phone number.">
+                                    <input type="tel" class="form-control form-control-style" placeholder="* Phone number" id="phone_number" required data-error="Please, enter your phone number.">
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -209,12 +210,13 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <select name="position" id="DepartmentsSelect" class="form-control form-control-style">
-                                        <option value="">Curation</option>
-                                        <option value="">Media</option>
-                                        <option value="">Technology</option>
-                                        <option value="">Partnerships</option>
-                                        <option value="">Operations</option>
+                                    <select name="position" id="DepartmentsSelect" class="form-control form-control-style" onchange="filter_available_positions(this.id, 'Availablepositions')">
+                                        <option value="0">Curation</option>
+                                        <option value="1">Media</option>
+                                        <option value="2">Technology</option>
+                                        <option value="3">Partnerships</option>
+                                        <option value="4">Operations</option> 
+                                        
                                     </select>
                                 </div>
                             </div>
@@ -222,11 +224,11 @@
                                 <div class="form-group">
                                     <select name="position" id="Availablepositions" class="form-control form-control-style">
                                         <option selected="selected" value="-1">* Please select a position which matches your skills and passion.</option>
-                                        <option value="">Curation Vice Executive</option>
-                                        <option value="">Host / Hostess</option>
-                                        <option value="">Media Vice Executive</option>
-                                        <option value="">iOS Application Developer</option>
-                                        <option value="">Partnership Coordinator</option>
+                                        <option value="0" class="curation">Curation Vice Executive</option>
+                                        <option value="1" class="media">Media Vice Executive</option>
+                                        <option value="2" class="technology">iOS Application Developer</option>
+                                        <option value="3" class="partnership">Partnership Coordinator</option>
+                                        <option value="4" class="operation">Host / Hostess</option>
                                     </select>
                                 </div>
                             </div>
