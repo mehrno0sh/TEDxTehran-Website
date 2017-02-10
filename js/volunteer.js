@@ -6,7 +6,6 @@ var sel2 = "Availablepositions";
 $(document).ready(function(){
     var option = $('#DepartmentsSelect').children('option');
     $(option[0]).prop('selected', true);
-    alert("curation is selected");
     filter_available_positions(sel1,sel2)
 })
 
@@ -40,11 +39,6 @@ function filter_available_positions(sel1, sel2){
        availablePositions = ["host|Host / Hostess"];
     }
 
-    // var defOption = document.createElement("option");
-    // defOption.value = -1;
-    // defOption.innerHTML = "* Please select a position which matches your skills and passion.";
-    // defOption.prop('selected', true);
-    // sel2.option.add(defOption);
 
     for (var option in availablePositions) {
         var pair = availablePositions[option].split("|");
@@ -53,10 +47,5 @@ function filter_available_positions(sel1, sel2){
         newOption.innerHTML = pair[1];
         sel2.options.add(newOption);
     }
-
-
     
-}
-function gav(){
-    alert("selected");
 }
