@@ -1,12 +1,21 @@
 
 //var AvailablePosArray = ["curation|Curation Vice Executive","host|Host / Hostess", "media|Media Vice Executive",];
+var sel1 = "DepartmentsSelect";
+var sel2 = "Availablepositions";
+
+$(document).ready(function(){
+    var option = $('#DepartmentsSelect').children('option');
+    $(option[0]).prop('selected', true);
+    alert("curation is selected");
+    filter_available_positions(sel1,sel2)
+})
+
 function apply_position(position) {
     var p = position;
     console.log('click');
     var option = $('#DepartmentsSelect').children('option');
     $(option[p]).prop('selected', true);
-    var sel1 = "DepartmentsSelect";
-    var sel2 = "Availablepositions";
+    
     filter_available_positions(sel1,sel2)
 }
 
