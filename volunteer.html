@@ -123,7 +123,7 @@
                 <div class="container">
                     <div class="row">
                         <!-- Item contact -->
-                        <div class="col-md-15 col-sm-3" onclick="apply_position(0)">
+                        <div class="col-md-15 col-sm-3" onclick="apply_position('curation')"> 
                             <div class="item-contact text-center">
                                 <img src="img/curation.svg" alt="curation">
                                 <h5 class="item-contact-heading text-uppercase">Curation</h5>
@@ -131,7 +131,7 @@
                         </div>
                         <!-- /Item contact -->
                         <!-- Item contact -->
-                        <div class="col-md-15 col-sm-3" onclick="apply_position(1)">
+                        <div class="col-md-15 col-sm-3" onclick="apply_position('media')">
                             <div class="item-contact text-center">
                                 <img src="img/media.svg" alt="media">
                                 <h5 class="item-contact-heading text-uppercase">Media</h5>
@@ -139,7 +139,7 @@
                         </div>
                         <!-- /Item contact -->
                         <!-- Item contact -->
-                        <div class="col-md-15 col-sm-3" onclick="apply_position(2)">
+                        <div class="col-md-15 col-sm-3" onclick="apply_position('technology')">
                             <div class="item-contact text-center">
                                 <img src="img/technology.svg" alt="technology">
                                 <h5 class="item-contact-heading text-uppercase">Technology</h5>
@@ -148,14 +148,14 @@
                         <!-- /Item contact -->
                         <!-- Item contact -->
                         <div class="col-md-15 col-sm-3">
-                            <div class="item-contact text-center" onclick="apply_position(3)">
+                            <div class="item-contact text-center" onclick="apply_position('partnership')">
                                 <img src="img/partnerships.svg" alt="partnerships">
-                                <h5 class="item-contact-heading text-uppercase">Partnerships</h5>
+                                <h5 class="item-contact-heading text-uppercase">Partnership</h5>
                             </div>
                         </div>
                         <!-- /Item contact -->
                         <!-- Item contact -->
-                        <div class="col-md-15 col-sm-3" onclick="apply_position(4)">
+                        <div class="col-md-15 col-sm-3" onclick="apply_position('operation')">
                             <div class="item-contact text-center">
                                 <img src="img/operation.svg" alt="operation">
                                 <h5 class="item-contact-heading text-uppercase">Operation</h5>
@@ -211,11 +211,11 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <select name="position" id="DepartmentsSelect" class="form-control form-control-style" onchange="filter_available_positions(this.id, 'Availablepositions')">
-                                        <option value="0">Curation</option>
-                                        <option value="1">Media</option>
-                                        <option value="2">Technology</option>
-                                        <option value="3">Partnerships</option>
-                                        <option value="4">Operations</option> 
+                                        <option value="curation">Curation</option>
+                                        <option value="media">Media</option>
+                                        <option value="technology">Technology</option>
+                                        <option value="partnership">Partnership</option>
+                                        <option value="operation">Operation</option> 
                                         
                                     </select>
                                 </div>
