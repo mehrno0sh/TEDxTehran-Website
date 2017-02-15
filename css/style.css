@@ -906,6 +906,7 @@ textarea.form-control-style {
     line-height: 30px;
     margin-bottom: 100px;
     padding-top: 10px;
+    text-align: justify;
 }
 
 .title-section:before,
