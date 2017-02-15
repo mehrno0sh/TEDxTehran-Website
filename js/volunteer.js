@@ -2,7 +2,8 @@
 var sel1 = "DepartmentsSelect";
 var sel2 = "Availablepositions";
 
-var avp = '{ "technology": ["iOS Application Developer", "Android Developer"],"curation": ["Curation Vice Executive"], "media":["Media Vice Executive"], "partnership":["Partnership Coordinator"], "operation" : ["Host/Hostess"]}';
+
+var avp = '{ "technology": [],"curation": ["Curator"], "media":[ "Farsi CopyWriter", "PR Executive", "Graphic Designer", "live bloger", "Twitter Admin", "Subtitles Vice Executive", "English Translator", "Farsi Transcriptor", "Photography Vice Executive", "Event Photographer"], "partnership":[], "operation" : ["Hospitality vice executive", "Host & Hostess", "Venue Coordinator"]}';
 var availablePositions = JSON.parse(avp);
 
 
@@ -14,10 +15,11 @@ $(document).ready(function(){
 
 function apply_position(position) {
     var p = position;
-    
     $('#DepartmentsSelect option[value=' + p + ']').prop('selected', true);
-    
-    filter_available_positions(sel1,sel2)
+    filter_available_positions(sel1,sel2);
+    $('html,body').animate({
+        scrollTop: $("#contactForm").offset().top},
+        'slow');
 }
 
 function filter_available_positions(sel1, sel2){
@@ -27,13 +29,21 @@ function filter_available_positions(sel1, sel2){
    //var availablePositions;
    var value = sel1.value;
    roles = availablePositions[value];
-   
-   for (i=0; i<roles.length; i++) {
-         var newOption = document.createElement("option");
+   if (roles.length == 0) {
+       var newOption = document.createElement("option");
+        newOption.value = 'noRole';
+        newOption.innerHTML = "--";
+        sel2.options.add(newOption);
+   }
+   else {
+        for (i=0; i<roles.length; i++) {
+        var newOption = document.createElement("option");
         newOption.value = roles[i];
         newOption.innerHTML = roles[i];
         sel2.options.add(newOption);
+     }
    }
+  
     
     
 }
