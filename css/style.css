@@ -2283,40 +2283,6 @@ textarea.form-control-style {
             top: 5px;
         }
 
-.container-error {
-    background: #fff;
-    color: #8e9da8;
-    height: 100%;
-}
-
-.image-404 {
-    max-width: 320px;
-}
-
-.heading-error {
-    color: #8e9da8;
-    font-size: 130px;
-    font-weight: 100;
-    line-height: 130px;
-    margin-top: 0;
-    margin-bottom: 10px;
-    overflow: hidden;
-    width: 100%;
-    transition: all .3s ease-in-out;
-}
-
-.message-error {
-    font-size: 24px;
-    line-height: 38px;
-    margin-bottom: 10px;
-    transition: all .3s ease-in-out;
-}
-
-.container-error .btn {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    font-weight: 100;
-}
 
 @keyframes animation-angle-right {
     0% {
